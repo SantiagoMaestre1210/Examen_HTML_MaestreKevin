@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ingreso Solidario</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#Que-es">¿Qué es?</a></li>
+        <li class="logo">
+          <img src="./assets/Menu_Bar.png" alt="Logo Gobierno">
+        </li>
+        <li><a href="#">Entrega</a></li>
+        <li><a href="#" class="btn-consultar">Consultar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <section class="formulario">
+      <h2>Consulta tu estado del<br><strong>Ingreso Solidario</strong></h2>
+      <p>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso.</p>
+
+      <form>
+        <label for="tipo-doc">Tipo de Documento</label>
+        <select id="tipo-doc" name="tipo-doc">
+          <option>Cédula de ciudadanía</option>
+          <option>Tarjeta de identidad</option>
+          <option>Cédula de extranjería</option>
+        </select>
+
+        <label for="numero-doc">Número de Documento</label>
+        <input type="text" id="numero-doc" name="numero-doc" required>
+
+        <label for="nombre">Primer Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Primer Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="fecha">Fecha de expedición del documento</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="telefono">Teléfono Móvil</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <button type="submit" class="btn-azul">Consultar</button>
+      </form>
+    </section>
+
+    <section class="descripcion">
+      <h2>Ingreso Solidario</h2>
+      <p>
+        Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más afectadas
+        y que no pertenezcan a ningún programa social, un subsidio por $160.000
+      </p>
+      <a href="#" class="btn-azul">Conocer más</a>
+    </section>
+
+    <h1 id="Que-es"¿Que es el ingreso solidario? h1>
+
+      <section class="Que_es">   
+        <h1>¿Que es el ingreso solidario?</h1>
+        <div class="texto">
+        <p>Es un esquema mediante el cual se entrega una transferencia monetaria en favor de los hogares en situación de pobreza y vulnerabilidad que no sean beneficiarios de programas sociales del Estado.</p>
+        <br>
+        <p>Los hogares en condición de pobreza y vulnerabilidad, afectados en sus ingresos como consecuencia de la pandemia del coronavirus , que no hagan parte de los programas sociales "Familias en Acción", "Colombia Mayor"," Jóvenes en Acción" y "Devolución del IVA" podrán acceder a esta medida social</p>
+        <br>
+      </div>
+      <div class="imagen">
+        <img src="assets/Diseño sin título.png" alt="logo">
+        <a href=""><img src="./assets/Icon ionic-ios-arrow-down.svg" alt=""></a>
+      </div>
+    </section>
+    
+  <h1 id="Entrega"Etapas de entrega h1>
+  
+  <div class="contenedor-tabla">
+    <h1>Etapas de Entrega</h1>
+    
+    <table>
+      <tr>
+        <th>Etapa 1</th>
+        <th>Etapa 2</th>
+        <th>Etapa 3</th>
+      </tr>
+      <tr>
+        <td>Desde el 7 de abril</td>
+        <td>9 de abril al 18 de abril</td>
+        <td>18 de abril al 25 de abril</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>    
+    <div class="bancos">
+        <h2>Bancos Autorizados</h2>
+        
+        <div class="logos-bancos">
+            <div class="banco">
+                <img src="./assets/b82ea-logo-vector-bancamia@2x.png" alt="BancaOja">
+            </div>
+            
+            <div class="banco">
+                <img src="./assets/logo-bancolombia@2x.png" alt="Bancolombia">
+            </div>
+            
+            <div class="banco movil">
+                <img src="./assets/794033df1e509b3adb4dfe495af54c3e.png" alt="MOVIL">
+                <img src="./assets/794033df1e509b3adb4dfe495af54c3e@2x.png" alt="DAVIPLATA">
+            </div>
+            
+            <div class="banco">
+                <img src="./assets/1200px-Banco_Caja_Social_logo.svg@2x.png" alt="Banco Caja Social">
+            </div>
+        </div>
+    </div>
+    
+    <div class="preguntas-frecuentes">
+        <h2>Preguntas Frecuentes</h2>
+        <a href=""><img src="./assets/Icon ionic-ios-arrow-down.svg" alt=""></a>
+    </div>
+  </div>
+  
+  </main>
+</body>
+</html>
